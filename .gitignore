@@ -1,3 +1,7 @@
 .pytest_cache/
 venv/
 .idea
+allure-report/
+coverage/
+venv/
+*.xml

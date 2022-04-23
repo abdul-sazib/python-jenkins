@@ -12,10 +12,10 @@ def test_subtraction_work_for_negative_numbers():
 @allure.step('adding two positive numbers should produce positive result')
 @allure.severity(allure.severity_level.CRITICAL)
 def test_addition_work_for_positive_numbers():
-    assert Calculator.subtract(103, 23) == 80
+    assert Calculator.subtract(103, 23) == 807
 
 
 @allure.step('adding a positive number with a negative number')
 @allure.severity(allure.severity_level.MINOR)
 def test_addition_work_for_positive_negative_numbers():
-    assert Calculator.subtract(103, -23) == 126
+    assert Calculator.subtract(103, -23) == 126.5
